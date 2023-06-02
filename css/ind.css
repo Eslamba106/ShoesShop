@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: cursive;
+}
+:root{
+    --one:rgb(168, 102, 102);
+    --two: rgb(104, 100, 100) ;
+    --three: rgb(157, 157, 77) ; 
+    --main: rgb(44, 44, 44) ; 
+    --mainn: blue;
+}
+.container {
+    background: var(--main);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.container header{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container header .head{
+    font-size: 30px;
+}
+.container header .head a{
+    color:var(--mainn);
+}
+.container header .head span{
+    color: red;
+}
+.container header .icon a{
+    margin: 10px;
+    font-size: 20px;
+    color: var(--mainn);
+}
+
+/* start section  */
+section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .text {
+    color: var(--mainn);
+    width: 40%;
+}
+section .text h2{
+    font-size: 30px;
+    margin: 10px 0 ;
+}
+section .text p{
+    font-size: 20px;
+}
+section .icons {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+}
+section .icons img{
+    width: 70px;
+    margin: 0 20px;
+}
